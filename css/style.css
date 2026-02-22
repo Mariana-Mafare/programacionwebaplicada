@@ -769,15 +769,11 @@ footer p { color:var(--gris); font-size:0.85rem; line-height:1.7; max-width:500p
 }
 
 @media (max-width: 640px) {
-  .hero-bottom-imagen {
-    display: block;
-    text-align: center;
-    margin-top: 1rem;
+  .hero-bottom {
+    grid-template-columns: 1fr;
+    justify-items: center;
   }
-
   .hero-bottom-imagen img {
-    width: 180px;
-    max-width: 90%;
-    height: auto;
+    width: 160px;
   }
 }
